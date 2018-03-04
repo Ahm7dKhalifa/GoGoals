@@ -1,0 +1,173 @@
+<!doctype html>
+<html >
+     <head>
+           <title>Gogoals</title>
+           <meta charset="UTF-8">
+           <link rel="stylesheet" href="css/main.css">
+     </head>
+<body>
+<!--###################################################################################################################
+        first part : vertical menu 
+#####################################################################################################################-->
+<div id="container-vertical-menu">
+    <a href="index.html"  class="iteam-vertical-menu" id="search-engines-vertical-menu">search engines</a>
+    <a href="pages/courses/courses.html" class="iteam-vertical-menu">courses</a>
+    <a href="pages/scientific-research/scientific-research.html" class="iteam-vertical-menu">scientific research</a>
+    <a href="pages/social-network/social-network.html" class="iteam-vertical-menu">social network</a>
+    <a href="pages/sport/sport.html" class="iteam-vertical-menu">sport</a>
+    <a href="pages/news/news.html" class="iteam-vertical-menu">news</a>
+</div> <!--end of vertical menu-->   
+<!--####################################################################################################################
+        second part : container
+#####################################################################################################################-->
+<div id="container">
+   <!--======================
+    container => title
+   ========================-->
+   <div id="title" lang="ar" >
+       Gogoals
+   </div> <!--end of title>
+   <!--=====================
+    container => search box
+    =======================-->
+    <div id="search-box">
+        <input type="text" id="search-box-input" placeholder="search for any thing on your mind">
+    </div><!--end of search box-->
+    <!--=======================
+     container => search engine 
+    =========================-->
+    <div id="search-engine">
+        <!--###########################################################################################################
+                first section
+        #############################################################################################################-->
+        <!--###########################################################################################################
+                first section => forms
+        #############################################################################################################--> 
+        <div id="first-section-forms" class="forms">
+            <!--==============================================================================================
+                                                        google
+             ==============================================================================================-->
+             <form   id="google" action="https://www.google.com/search" method="get" target="_blank">
+                 <input type ="search" id="googleBox" name="q" value="" >
+             </form>
+              <!--==============================================================================================
+                                                        bing
+              ==============================================================================================-->
+              <form  id="bing" action="https://www.bing.com/search" method="get" target="_blank">
+                 <input type ="search" id="bingBox" name="q" value="">
+              </form>
+             <!--==============================================================================================
+                                                      duckduckgo
+             ==============================================================================================-->
+            <form  id="duckduckgo"  action="https://duckduckgo.com/" method="get" target="_blank">
+                <input type ="search" id="duckduckgoBox" name="q" value=""  >
+            </form>
+             <!--==============================================================================================
+                                                       ask
+             ==============================================================================================-->
+            <form   id="ask" action="http://www.ask.com/web" method="get" target="_blank">
+                <input type ="search"  id="askBox" name="q" value=""  >
+            </form>
+             <!--==============================================================================================
+                                                      udemy
+             ==============================================================================================-->
+            <form   id="aol" action="http://search.aol.com/aol/search" method="get" target="_blank">
+                <input type ="search" id="aolBox" name="q" value=""  >
+            </form>
+        </div><!--end of first section => forms-->    
+        <!--############################################################################################################
+                first section => cheack input
+         ############################################################################################################-->
+        <div id="first-section-checkbox" class="checkbox">
+            <input type="checkbox" id="google-checkbox"> google <br> 
+            <input type="checkbox" id="bing-checkbox"> bing <br>    
+            <input type="checkbox" id="duckduckgo-checkbox"> duckduckgo <br>    
+            <input type="checkbox" id="ask-checkbox"> ask <br>    
+            <input type="checkbox" id="aol-checkbox"> aol <br> 
+         </div><!--end of first section => checkbox input--> 
+        <!--############################################################################################################
+                first section => select all button
+        ############################################################################################################-->
+        <button id="first-section-select-all" class="select-all">
+            select all
+        </button>
+        <!--############################################################################################################
+                first section => submit button
+         ############################################################################################################-->
+        <button id="first-section-submit" class="submit">
+            search
+        </button>
+        <!--###########################################################################################################
+                second section
+        #############################################################################################################-->
+        <!--###########################################################################################################
+                 second section => forms
+        #############################################################################################################--> 
+        <div id="second-section-forms" class="forms">
+            <!--==============================================================================================
+                                                       wow
+             ==============================================================================================-->
+             <form   id="wow" action="http://search.wow.com/search" method="get" target="_blank">
+                 <input type ="search" id="wowBox" name="q" value="" >
+             </form>
+              <!--==============================================================================================
+                                                       infospace
+              ==============================================================================================-->
+              <form  id="infospace" action="http://search.infospace.com/search/web" method="get" target="_blank">
+                 <input type ="search" id="infospaceBox" name="q" value="">
+              </form>
+              <!--==============================================================================================
+                                                       contenko
+              ==============================================================================================-->
+              <form  id="contenko" action="http://www.contenko.com" method="get" target="_blank">
+                 <input type ="search" id="contenkoeBox" name="q" value="">
+              </form>
+              <!--==============================================================================================
+                                                       alhea
+              ==============================================================================================-->
+              <form  id="alhea" action="http://www.alhea.com/search/web" method="get" target="_blank">
+                 <input type ="search" id="alheaBox" name="q" value="">
+              </form>
+               <!--==============================================================================================
+                                                       yahoo
+              ==============================================================================================-->
+              <form  id="yahoo" action="https://search.yahoo.com/search;" method="get" target="_blank">
+                 <input type ="search" id="yahooBox" name="p" value="">
+              </form>
+             
+        </div><!--   end of   second section => forms  -->    
+        <!--############################################################################################################
+                  second section => cheack input
+         ############################################################################################################-->
+        <div id="second-section-checkbox" class="checkbox">
+            <input type="checkbox" id="wow-checkbox"> wow <br> 
+            <input type="checkbox" id="infospace-checkbox"> infospace <br> 
+            <input type="checkbox" id="contenko-checkbox"> contenko <br>
+            <input type="checkbox" id="alhea-checkbox"> alhea <br>
+            <input type="checkbox" id="yahoo-checkbox"> yahoo <br>
+
+         </div><!--end of first section => checkbox input--> 
+        <!--############################################################################################################
+                  second section => select all button
+        ############################################################################################################-->
+        <button id="second-section-select-all" class="select-all">
+            select all
+        </button>
+        <!--############################################################################################################
+                  second section => submit button
+         ############################################################################################################-->
+        <button id="second-section-submit" class="submit">
+            search
+        </button>
+        
+    </div><!--end of search engine--> 
+</div><!--end of container-->
+<!--##################################################################################################################
+        javascript part
+####################################################################################################################-->
+<!--=======================================
+    main file
+==========================================-->
+<script src="javascript/main.js"></script>    
+</body>
+</html>

@@ -1,0 +1,213 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #3497db;
+    font-family: "ElMessiri";
+}
+/*#####################################################################################################################
+    fonts server
+#####################################################################################################################*/
+@font-face
+{
+    font-family:"ElMessiri";
+    src: url("../fonts/El-Messiri-master/El-Messiri-master/fonts/otf/ElMessiri-SemiBold.otf");
+}
+/*######################################################################################################################
+    first part : vertical menu
+#####################################################################################################################*/
+#container-vertical-menu
+{
+    width:25%;
+    height:700px;
+   
+    background: #fff;            
+    position: absolute;
+    top:0;
+    left:0;
+}
+.iteam-vertical-menu 
+{
+    display: block;
+    width:100%;
+    height:100px;
+    
+    background: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    line-height: 100px;
+    color:#000;
+    font-size:160%;
+    position: relative;
+}
+.iteam-vertical-menu:before
+{
+    content:" ";
+    position: absolute;
+    top:25%;
+    right:0;
+    width:0px;
+    height:0px;
+    border-right:50px solid #3497db ;
+    border-top:25px solid transparent;
+    border-bottom:25px solid transparent;
+    z-index: -1;
+}
+#scintific-research-vertical-menu:before
+{
+    z-index: 1;
+}
+.iteam-vertical-menu:hover
+{
+    background: #3497db;
+    color:#fff;
+}
+#scintific-research-vertical-menu:hover
+{
+    background: #fff;
+    color:#000;
+}
+/*####################################################################################################################
+    second part : container
+#####################################################################################################################*/
+#container
+{
+    width:75%;
+    height:700px;
+    position: absolute;
+    top:0;
+    left:25%;
+   /* background: #f00;*/
+}
+/*========================================================
+    container => title
+==========================================================*/
+#title
+{
+    width:70%;
+    height:200px;
+    font-size:1000%;
+    margin: 0 auto;
+    text-align: center;
+    color:#ff0;
+}
+/*========================================================
+    container => search-box
+==========================================================*/
+#search-box
+{
+    width:60%;
+    height:100px;
+    margin:0px auto;
+}
+
+
+#search-box-input
+{
+    display: block;
+    width:100%;
+    height:50px;
+    padding-left:2%;
+    border:none;
+    outline: none;
+    font-family: "ElMessiri";
+    font-size:170%;
+    color:#30c;
+}
+/*#####################################################################################################################
+    first section
+#####################################################################################################################*/
+/*#####################################################################################################################
+    first section => forms
+######################################################################################################################*/
+.forms
+{
+    display: none;
+}
+/*######################################################################################################################
+    first section => check input
+####################################################################################################################*/
+.checkbox
+{
+    width:50%;
+    margin:0 auto;
+    color:#fff;
+    font-family: "ElMessiri";
+    font-size:300%;
+}
+.checkbox input
+{
+   
+    width:30px;
+    height:30px;
+    vertical-align:middle;
+}
+/*######################################################################################################################
+    first section => select all button
+#####################################################################################################################*/
+.select-all
+{
+    width:20%;
+    height:50px;
+    
+    margin-left:50%;
+    margin-right:3%;
+    
+    border:none;
+    outline: none;
+    background: #17AA1C;
+    color:#fff;
+    font-family: "ElMessiri";
+    font-size:200%;
+    transition:transform .3s;
+}
+.select-all:hover
+{
+    border:2px solid #fff;
+}
+.select-all:active
+{
+    transform: translateY(15px);
+}
+
+
+/*######################################################################################################################
+    first section => search button
+#####################################################################################################################*/
+.submit
+{
+    width:20%;
+    height:50px;
+    border:5px solid #000;
+   
+    outline: none;
+    background: #fff;
+    color:#000;
+    font-family: "ElMessiri";
+    font-size:200%;  
+    transition:all .3s;
+   
+}
+.submit:active
+{
+    transform: translateY(15px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

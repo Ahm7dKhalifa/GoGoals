@@ -1,0 +1,102 @@
+<!doctype html>
+<html >
+     <head>
+           <title> sport </title>
+           <meta charset="UTF-8">
+           <link rel="stylesheet" href="css/sport-style.css">
+     </head>
+<body>
+<!--###################################################################################################################
+        first part : vertical menu
+#####################################################################################################################-->
+<div id="container-vertical-menu">
+    <a href="../../index.html"  class="iteam-vertical-menu" >search engines</a>
+    <a href="../courses/courses.html" class="iteam-vertical-menu" >courses</a>
+    <a href="../scientific-research/scientific-research.html" class="iteam-vertical-menu">scientific research</a>
+    <a href="../social-network/social-network.html" class="iteam-vertical-menu">social network</a>
+    <a href="sport.html" class="iteam-vertical-menu" id="sport-vertical-menu">sport</a>
+    <a href="../news/news.html" class="iteam-vertical-menu">news</a>
+</div> <!--end of vertical menu-->   
+<!--####################################################################################################################
+        second part : container
+#####################################################################################################################-->
+<div id="container">
+   <!--======================
+    container => title
+   ========================-->
+   <div id="title" lang="ar" >
+       Gogoals
+   </div> <!--end of title>
+   <!--=====================
+    container => search box
+    =======================-->
+    <div id="search-box">
+        <input type="text" id="search-box-input" placeholder="Enter The Name of player or club or champion">
+    </div><!--end of search box-->
+    <!--=======================
+     container => search engine 
+    =========================-->
+    <div class="soon">alot of other sport websites will be add soon</div>
+    <div id="sport">
+        <!--#####################################################################################################
+                first section
+        ####################################################################################################-->
+        <!--###################################################################################################
+                first section => forms
+        ###################################################################################################--> 
+        <div id="first-section-forms" class="forms">
+            <!--==============================================================================================
+                                                        filgoal
+             ==============================================================================================-->
+             <form   id="filgoal" action="https://www.filgoal.com/search/filter" method="get" target="_blank">
+                 <input type ="search" id="filgoalBox" name="keyword" value="" >
+             </form>
+            <!--==============================================================================================
+                                                        yallakora
+             ==============================================================================================-->
+             <form   id="yallakora" action="http://www.yallakora.com//ar/SearchResult" method="get" target="_blank">
+                 <input type ="search" id="yallakoraBox" name="q" value="" >
+             </form>
+            <!--==============================================================================================
+                                                        eurosport
+             ==============================================================================================-->
+             <form   id="eurosport" action="http://arabia.eurosport.com/search" method="get" target="_blank">
+                 <input type ="search" id="eurosportBox" name="q" value="" >
+             </form>
+            
+        </div><!--end of first section => forms-->    
+        <!--###################################################################################################
+                first section => cheack input
+         ####################################################################################################-->
+        <div id="first-section-checkbox" class="checkbox">
+            <input type="checkbox" id="filgoal-checkbox"> filgoal <br>
+            <input type="checkbox" id="yallakora-checkbox"> yallakora <br>
+            <input type="checkbox" id="eurosport-checkbox"> eurosport <br>
+            
+            
+         </div><!--end of first section => checkbox input--> 
+        <!--#####################################################################################################
+                first section => select all button
+        #######################################################################################################-->
+        <button id="first-section-select-all" class="select-all">
+            select all
+        </button>
+        <!--######################################################################################################
+                first section => submit button
+         ######################################################################################################-->
+        <button id="first-section-submit" class="submit">
+            search
+        </button>
+        
+    </div><!--end of sport--> 
+    
+</div><!--end of container-->
+<!--##################################################################################################################
+        javascript part
+####################################################################################################################-->
+<!--=======================================
+    sport file
+==========================================-->
+<script src="javascript/sport.js"></script>    
+</body>
+</html>

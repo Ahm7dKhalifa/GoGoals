@@ -1,0 +1,122 @@
+<!doctype html>
+<html >
+     <head>
+           <title> news </title>
+           <meta charset="UTF-8">
+           <link rel="stylesheet" href="css/news-style.css">
+     </head>
+<body>
+<!--##############################################################################################################
+        first part : vertical menu
+###############################################################################################################-->
+<div id="container-vertical-menu">
+    <a href="../../index.html"  class="iteam-vertical-menu" >search engines</a>
+    <a href="../courses/courses.html" class="iteam-vertical-menu">courses</a>
+    <a href="../scientific-research/scientific-research.html" class="iteam-vertical-menu">scientific research</a>
+    <a href="../social-network/social-network.html" class="iteam-vertical-menu">social network</a>
+    <a href="../sport/sport.html" class="iteam-vertical-menu">sport</a>
+    <a href="news.html" class="iteam-vertical-menu" id="news-vertical-menu">news</a>
+</div> <!--end of vertical menu-->   
+<!--##############################################################################################################
+        second part : container
+###############################################################################################################-->
+<div id="container">
+   <!--======================
+    container => title
+   ========================-->
+   <div id="title" lang="ar" >
+      Gogoals
+   </div> <!--end of title>
+   <!--=====================
+    container => search box
+    =======================-->
+    <div id="search-box">
+        <input type="text" id="search-box-input" placeholder="search to know all the news Point of views">
+    </div><!--end of search box-->
+    <!--=======================
+     container => search engine 
+    =========================-->
+    <div class="soon">alot of other news websites will be add soon</div>
+    <div id="news">
+        <!--##################################################################################################
+                first section
+        ####################################################################################################-->
+        <!--#####################################################################################################
+                first section => forms
+        ######################################################################################################--> 
+        <div id="first-section-forms" class="forms">
+            <!--==============================================================================================
+                                                        youm7
+             ==============================================================================================-->
+             <form   id="youm7" action="http://www.youm7.com/Home/Search" method="get" target="_blank">
+                 <input type ="search" id="youm7Box" name="allwords" value="" >
+             </form>
+            <!--==============================================================================================
+                                                        masrawy
+             ==============================================================================================-->
+             <form   id="masrawy" action="http://www.masrawy.com/search" method="get" target="_blank">
+                 <input type ="search" id="masrawyBox" name="sk" value="" >
+             </form>
+            <!--==============================================================================================
+                                                        elbalad
+             ==============================================================================================-->
+             <form   id="elbalad" action="http://www.elbalad.news/list.aspx" method="get" target="_blank">
+                 <input type ="search" id="elbaladBox" name="w" value="" >
+             </form>
+            <!--==============================================================================================
+                                                        aljazeera
+             ==============================================================================================-->
+             <form   id="aljazeera" action="http://www.aljazeera.net/home/search" method="get" target="_blank">
+                 <input type ="search" id="aljazeeraBox" name="q" value="" >
+             </form>
+            <!--==============================================================================================
+                                                        alwafd
+             ==============================================================================================-->
+             <form   id="alwafd" action="http://alwafd.org/search" method="get" target="_blank">
+                 <input type ="search" id="alwafdBox" name="q" value="" >
+             </form>
+            <!--==============================================================================================
+                                                        ikhwan
+             ==============================================================================================-->
+             <form   id="ikhwan" action="http://ikhwan.site/" method="get" target="_blank">
+                 <input type ="search" id="ikhwanBox" name="s" value="" >
+             </form>
+            
+              
+        </div><!--end of first section => forms-->    
+        <!--####################################################################################################
+                first section => cheack input
+         #####################################################################################################-->
+        <div id="first-section-checkbox" class="checkbox">
+            <input type="checkbox" id="youm7-checkbox"> youm7 <br> 
+            <input type="checkbox" id="masrawy-checkbox"> masrawy <br>
+            <input type="checkbox" id="elbalad-checkbox"> sada elbalad <br>
+            
+            <input type="checkbox" id="alwafd-checkbox"> alwafd <br>
+            
+            <input type="checkbox" id="aljazeera-checkbox"> aljazeera <br>
+            <input type="checkbox" id="ikhwan-checkbox"> ikhwan <br>
+            
+         </div><!--end of first section => checkbox input--> 
+        <!--#####################################################################################################
+                first section => select all button
+        #######################################################################################################-->
+        <button id="first-section-select-all" class="select-all">
+            select all
+        </button>
+        <!--###################################################################################################
+                first section => submit button
+         ###################################################################################################-->
+        <button id="first-section-submit" class="submit">
+            search
+        </button>
+        
+    </div><!--end of courses--> 
+    
+</div><!--end of container-->
+<!--#############################################################################################################
+      javascript files 
+##############################################################################################################-->
+<script src="javascript/news.js"></script>    
+</body>
+</html>

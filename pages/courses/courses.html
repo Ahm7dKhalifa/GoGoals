@@ -1,0 +1,115 @@
+<!doctype html>
+<html >
+     <head>
+           <title> courses </title>
+           <meta charset="UTF-8">
+           <link rel="stylesheet" href="css/courses-style.css">
+     </head>
+<body>
+<!--#############################################################################################################
+        first part : vertical menu
+##############################################################################################################-->
+<div id="container-vertical-menu">
+    <a href="../../index.html"  class="iteam-vertical-menu" >search engines</a>
+    <a href="courses.html" class="iteam-vertical-menu" id="courses-vertical-menu">courses</a>
+    <a href="../scientific-research/scientific-research.html" class="iteam-vertical-menu">scientific research</a>
+    <a href="../social-network/social-network.html" class="iteam-vertical-menu">social network</a>
+    <a href="../sport/sport.html" class="iteam-vertical-menu">sport</a>
+    <a href="../news/news.html" class="iteam-vertical-menu">news</a>
+</div> <!--end of vertical menu-->   
+<!--####################################################################################################################
+        second part : container
+#####################################################################################################################-->
+<div id="container">
+   <!--======================
+    container => title
+   ========================-->
+   <div id="title" lang="ar" >
+      Gogoals
+   </div> <!--end of title>
+   <!--=====================
+    container => search box
+    =======================-->
+    <div id="search-box">
+        <input type="text" id="search-box-input" placeholder="Enter The Name of course in english accurately">
+    </div><!--end of search box-->
+    <!--=======================
+     container => search engine 
+    =========================-->
+    <div class="soon">alot of other courses websites will be add soon</div>
+    <div id="courses">
+        <!--###########################################################################################################
+                first section
+        ########################################################################################################-->
+        <!--#######################################################################################################
+                first section => forms
+        #######################################################################################################--> 
+        <div id="first-section-forms" class="forms">
+            <!--==============================================================================================
+                                                        udemy
+             ==============================================================================================-->
+             <form   id="udemy" action="https://www.udemy.com/courses/search/" method="get" target="_blank">
+                 <input type ="search" id="udemyBox" name="q" value="" >
+             </form>
+            <!--==============================================================================================
+                                                        coursera
+             ==============================================================================================-->
+             <form   id="coursera" action="https://www.coursera.org/courses" method="get" target="_blank">
+                 <input type ="search" id="courseraBox" name="query" value="" >
+             </form>
+            <!--==============================================================================================
+                                                        alison
+             ==============================================================================================-->
+             <form   id="alison" action="https://alison.com/search/result/" method="get" target="_blank">
+                 <input type ="search" id="alisonBox" name="q" value="" >
+             </form>
+            <!--==============================================================================================
+                                                        edx
+             ==============================================================================================-->
+             <form   id="edx" action="https://www.edx.org/course" method="get" target="_blank">
+                 <input type ="search" id="edxBox" name="search_query" value="" >
+             </form>
+            <!--==============================================================================================
+                                                        uw
+             ==============================================================================================-->
+             <form   id="uw" action="https://www.pce.uw.edu/program-finder" method="get" target="_blank">
+                 <input type ="search" id="uwBox" name="term" value="" >
+             </form>
+              
+        </div><!--end of first section => forms-->    
+        <!--#######################################################################################################
+                first section => cheack input
+    	########################################################################################################-->
+        <div id="first-section-checkbox" class="checkbox">
+            <input type="checkbox" id="udemy-checkbox"> udemy <br> 
+            <input type="checkbox" id="coursera-checkbox"> coursera <br>
+            <input type="checkbox" id="alison-checkbox"> alison <br>
+            <input type="checkbox" id="edx-checkbox"> edx <br>
+            <input type="checkbox" id="uw-checkbox"> open UW <br>
+            
+         </div><!--end of first section => checkbox input--> 
+        <!--######################################################################################################
+                first section => select all button
+        #######################################################################################################-->
+        <button id="first-section-select-all" class="select-all">
+            select all
+        </button>
+        <!--#####################################################################################################
+                first section => submit button
+         ######################################################################################################-->
+        <button id="first-section-submit" class="submit">
+            search
+        </button>
+        
+    </div><!--end of courses--> 
+    
+</div><!--end of container-->
+<!--#############################################################################################################
+        javascript part
+#############################################################################################################-->
+<!--=======================================
+    courses file
+==========================================-->
+<script src="javascript/courses.js"></script>    
+</body>
+</html>

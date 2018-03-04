@@ -1,0 +1,99 @@
+<!doctype html>
+<html >
+     <head>
+           <title> social network </title>
+           <meta charset="UTF-8">
+           <link rel="stylesheet" href="css/social-style.css">
+     </head>
+<body>
+<!--##########################################################################################################
+        first part : vertical menu
+#############################################################################################################-->
+<div id="container-vertical-menu">
+    <a href="../../index.html"  class="iteam-vertical-menu" >search engines</a>
+    <a href="../courses/courses.html" class="iteam-vertical-menu" >courses</a>
+    <a href="../scientific-research/scientific-research.html" class="iteam-vertical-menu">scientific research</a>
+    <a href="social-network.html" class="iteam-vertical-menu" id="social-vertical-menu">social network</a>
+    <a href="../sport/sport.html" class="iteam-vertical-menu">sport</a>
+    <a href="../news/news.html" class="iteam-vertical-menu">news</a>
+</div> <!--end of vertical menu-->   
+<!--###############################################################################################################
+        second part : container
+###############################################################################################################-->
+<div id="container">
+   <!--======================
+    container => title
+   ========================-->
+   <div id="title" lang="ar" >
+      Gogoals
+   </div> <!--end of title>
+   <!--=====================
+    container => search box
+    =======================-->
+    <div id="search-box">
+        <input type="text" id="search-box-input" placeholder="search about person or post or hashtag ..ect">
+    </div><!--end of search box-->
+    <!--=======================
+     container => search engine 
+    =========================-->
+    <div id="social-network">
+        <!--#####################################################################################################
+                first section
+         ###################################################################################################-->
+        <!--#####################################################################################################
+                first section => forms
+        #####################################################################################################--> 
+        <div id="first-section-forms" class="forms">
+            <!--==============================================================================================
+                                                        google
+             ==============================================================================================-->
+             <form id="facebook" action="https://www.facebook.com/search/top/" method="get" target="_blank">
+                 <input type ="search" id="facebookBox" name="q" value="" >
+             </form>
+            <!--==============================================================================================
+                                                        twitter
+             ==============================================================================================-->
+             <form id="twitter" action="https://twitter.com/search" method="get" target="_blank">
+                 <input type ="search" id="twitterBox" name="q" value="" >
+             </form>
+            <!--==============================================================================================
+                                                       linkedin
+             ==============================================================================================-->
+             <form id="linkedin" action="https://www.linkedin.com/vsearch/f" method="get" target="_blank">
+                 <input type ="search" id="linkedinBox" name="keywords" value="" >
+             </form>
+              
+        </div><!--end of first section => forms-->    
+        <!--#####################################################################################################
+                first section => cheack input
+         ####################################################################################################-->
+        <div id="first-section-checkbox" class="checkbox">
+            <input type="checkbox" id="facebook-checkbox"> facebook <br>
+            <input type="checkbox" id="twitter-checkbox"> twitter <br>
+            <input type="checkbox" id="linkedin-checkbox"> linkedin <br>
+            
+         </div><!--end of first section => checkbox input--> 
+        <!--#######################################################################################################
+                first section => select all button
+        #######################################################################################################-->
+        <button id="first-section-select-all" class="select-all">
+            select all
+        </button>
+        <!--#######################################################################################################
+                first section => submit button
+         ######################################################################################################-->
+        <button id="first-section-submit" class="submit">
+            search
+        </button>
+        
+    </div><!--end of search engine--> 
+</div><!--end of container-->
+<!--###############################################################################################################
+        javascript part
+################################################################################################################-->
+<!--=======================================
+    main file
+==========================================-->
+<script src="javascript/social-network.js"></script>    
+</body>
+</html>
