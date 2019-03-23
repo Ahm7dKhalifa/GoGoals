@@ -14,8 +14,6 @@ the advantages of Gogoals :
 1- multi search by one click
 2- direct search
 3- user can select the websites which they love them
-4- the big advantage i hope to develope it zlzal does not store data but store the address of data and 
-linkes
 ****************************************************************************
 ... please its important to watch this video before use this website 
 ***************************************************************************
